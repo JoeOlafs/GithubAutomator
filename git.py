@@ -32,4 +32,4 @@ if sys.argv[2] == "py" or sys.argv[2] == "java":
     os.system('code .')
 
 else:
-    print("create <fldername>"
+    print("create <fldername>")
