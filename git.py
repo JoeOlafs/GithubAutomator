@@ -21,15 +21,10 @@ commands = [f'echo "# {repo.name}" >> README.md',
             'git commit -m "Initial commit"',
             'git push -u origin master']
 
-#Create and navigate to correct directory
-if sys.argv[2] == "py" or sys.argv[2] == "java":
-    os.mkdir(_dir)
-    os.chdir(_dir)
+os.mkdir(_dir)
+os.chdir(_dir)
 
-    for c in commands:
-        os.system(c)
-
-    os.system('code .')
-
-else:
-    print("create <fldername>")
+for c in commands:
+    os.system(c)
+    
+os.system('code .')
