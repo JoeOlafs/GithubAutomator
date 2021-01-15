@@ -12,5 +12,4 @@ Type into CMD: Project projectName fileEnding
 
 In order for this to work you need to add your personalised Github Token and a directory of your chosing to Environments.
 
-
-
+In order to create a local project, simply add 'local' to the end of your command and the project will not be uploaded to Github.

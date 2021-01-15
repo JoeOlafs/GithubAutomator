@@ -2,13 +2,24 @@
 
 set fn=%1
 set flag=%2
+Set loc=%3
+
+cd Progs
+cd GithubAutomator
 
 if "%1"=="" (
 	echo error
 ) else (
     if "%2"=="" (
-        echo local not ready
+        echo error
     ) else (
-        python git_copy.py %fn% %flag%
+        if "%3" == "local" (
+			python local.py %fn% %flag%
+		) else (
+			python git.py %fn% %flag%
+		)
     )
 )
+
+cd ..
+cd ..
