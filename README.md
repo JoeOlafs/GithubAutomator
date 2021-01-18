@@ -1,4 +1,4 @@
-"# GithubAutomator" 
+<h1>GithubAutomator</h1> 
 
 This program simplifies and speeds up process of creating new projects.
 
@@ -12,6 +12,6 @@ Type into CMD: Project projectName fileEnding
 
 In order for this to work you need to add your personalised Github Token and a directory of your chosing to Environments.
 
-Additionally, if you do not have it installed already, run: <code class="docutils literal"><span class="pre">pip install github</span></code> in terminal
-
 In order to create a local project, simply add 'local' to the end of your command and the project will not be uploaded to Github.
+
+Additionally, if you do not have it Github apiinstalled already, run in terminal: <code class="docutils literal"><span class="pre">pip install github</span></code>
