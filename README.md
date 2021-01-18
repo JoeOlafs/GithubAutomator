@@ -15,5 +15,6 @@ In order for this to work you need to add your personalised Github Token and a d
 
 In order to create a local project, simply add 'local' to the end of your command and the project will not be uploaded to Github.
 
-Additionally, if you do not have it Github apiinstalled already, run in CMD: 
-    <code class="docutils literal"><span class="pre">pip install github</span></code>
+Additionally, if you do not have the Github API installed already.
+Run in CMD: 
+    <code class="docutils literal"><span class="pre">pip install pygithub</span></code>
