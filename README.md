@@ -4,10 +4,6 @@ This program simplifies and speeds up process of creating new projects.
 
 This program is setup for Windows and meant to be used through CMD
 
-This is not my idea nor my code for the most part.
-This program from Kalle Hallden and I used it to learn more about programming and command line
-In addition I added in the function of creating a 'main' file for the programming language you choose
-
 <h2><b>How it works?</b></h2>
 
 Type into CMD: 
@@ -24,3 +20,10 @@ Additionally, if you do not have the Github API installed already.
 Run in CMD: 
 
 <code class="docutils literal"><span class="pre">pip install pygithub</span></code>
+
+
+
+This is not my idea and some of the code is taken from the original project. However I have changed some parts in order to get the function as I wanted it to be. 
+This program from Kalle Hallden and I used it to learn more about programming and command line. 
+In addition I added in the function of creating a 'main' file for the programming language you 
+Link to original project: <link rel="KalleHallden/ProjectInitializationAutomation" href="https://github.com/KalleHallden/ProjectInitializationAutomation">
