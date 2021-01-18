@@ -26,4 +26,4 @@ Run in CMD:
 This is not my idea and some of the code is taken from the original project. However I have changed some parts in order to get the function as I wanted it to be. 
 This program from Kalle Hallden and I used it to learn more about programming and command line. 
 In addition I added in the function of creating a 'main' file for the programming language you 
-Link to original project: <p><link rel="KalleHallden/ProjectInitializationAutomation" href="https://github.com/KalleHallden/ProjectInitializationAutomation"></p>
+Link to original project: https://github.com/KalleHallden/ProjectInitializationAutomation
