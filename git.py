@@ -14,7 +14,7 @@ repo = user.create_repo(folder)
 
 #Commands to create files and perform inital commit
 commands = [f'echo "# {repo.name}" >> README.md',
-			f'echo "#{repo.name}" >> main.{sys.argv[2]}',
+			f'echo "#{repo.name}" >> Main.{sys.argv[2]}',
             'git init',
             f'git remote add origin https://github.com/{login}/{folder}.git',
             'git add .',
