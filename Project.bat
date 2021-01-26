@@ -1,4 +1,4 @@
-@echo off
+@echo on
 
 set fn=%1
 set flag=%2
@@ -13,11 +13,15 @@ if "%1"=="" (
     if "%2"=="" (
         echo error
     ) else (
-        if "%3" == "local" (
-			python local.py %fn% %flag%
-		) else (
-			python git.py %fn% %flag%
-		)
+        if "%2"=="flutter" (
+            python gitFlutter.py %fn% %flag%
+        ) else (
+            if "%3" == "local" (
+                python local.py %fn% %flag%
+            ) else (
+                python git.py %fn% %flag%
+            )
+        )
     )
 )
 
