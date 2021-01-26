@@ -21,10 +21,21 @@ commands = [f'echo "# {repo.name}" >> README.md',
             'git commit -m "Initial commit"',
             'git push -u origin master']
 
+flutCommands = [f'flutter create {sys.argv[1]}',
+                'git init',
+                f'git remote add origin https://github.com/{login}/{folder}.git',
+                'git add .',
+                'git commit -m "Initial commit"',
+                'git push -u origin master']
+
 os.mkdir(_dir)
 os.chdir(_dir)
 
-for c in commands:
-    os.system(c)
-    
+if sys.argv[2] == 'flutter':
+    for c in flutCommands:
+        os.system(c)
+else:
+    for c in commands:
+        os.system(c)
+
 os.system('code .')

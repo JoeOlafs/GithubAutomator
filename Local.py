@@ -11,8 +11,11 @@ commands = [f'echo "# {sys.argv[1]}" >> README.md',
 os.mkdir(_dir)
 os.chdir(_dir)
 
-for c in commands:
-    os.system(c)
+if sys.argv[2] == 'flutter':
+    os.system(f'flutter create {sys.argv[1]}')
+else:
+    for c in commands:
+        os.system(c)
 
 os.system('echo Project not uploaded to Github')
 os.system('code .')
